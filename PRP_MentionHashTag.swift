@@ -83,7 +83,7 @@ final class PRP_MentionHashTag_TextView: UITextView {
     override func awakeFromNib() {
         super.awakeFromNib()
 
-        self.isSelectable = false
+        self.isSelectable = true
     }
     
     override func canPerformAction(_ action: Selector, withSender sender: Any?) -> Bool {
